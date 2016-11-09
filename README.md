@@ -35,6 +35,9 @@ Note that disagreement between co-located sample pairs is not an indicator of op
 ###Magnaprobe
 All measurements contained within the `magnaprobe` group (`/eureka_data/magnaprobe`) were collected with [GPS-enabled Snow Hydro Magnaprobe](http://www.snowhydro.com/products/column2.html) units. Point measruements of snow depth are provided in the dataset `/eureka_data/magnaprobe/snow_depth`. Measurements have been rounded to the nearest mm and are provided in m units.
 
+## Refrence
+King, J., S. Howell, C. Derksen, N. Rutter, P. Toose, J. F. Beckers, C. Haas, N. Kurtz, and J. Richter-Menge (2015), Evaluation of Operation IceBridge quick-look snow depth estimates on sea ice, Geophys. Res. Lett., 42, 9302–9310, doi:10.1002/2015GL066389.
+
 ## Contact
 Josh King, Research Scientist, joshua.king[at]canada.ca
 
