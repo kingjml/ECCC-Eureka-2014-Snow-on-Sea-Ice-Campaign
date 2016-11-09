@@ -12,15 +12,23 @@ Unit type attributes have been provided where appropriate.
 
 All coordinates are stored as float lat/lon values with WGS 84 as the CRS.
 
+###Gridded data example
+![Grid Example](https://github.com/kingjml/ECCC-Eureka-2014-Snow-on-Sea-Ice-Campaign/blob/master/grid_example.jpg?raw=true)
+
+###Transect data example
+![Transect Example](https://github.com/kingjml/ECCC-Eureka-2014-Snow-on-Sea-Ice-Campaign/blob/master/transect_example.jpg?raw=true)
+
 #Measurements
 Three groups define the measurement types identified as *auger*, *esc30*, and *magnaprobe*. 
 
 ###Auger
-Measurements within the `auger` group (`/eureka_data/auger`) were collected at points where a 15 cm diameter auger was used to drill through the full sea ice thickness. Snow depth (`/eureka_data/auger/snow_depth`) was measure to the nearest 0.5 cm above each auger location using an avalance probe. Ice thickness(`/eureka_data/auger/ice_thickness`) was measured between the snow-ice interface and ice draft to the nearest cm with a probe and hook. Freeboard (`/eureka_data/auger/ice_freeboard`) was measured between the snow-ice interface and water level to the nearest cm using an avalanche probe. Coordinate information provided within this sub-group was collected with a handheld Garmin GPS unit (~3 m accuracy). 
+Measurements within the `auger` group (`/eureka_data/auger`) were collected at points where a 15 cm diameter auger was used to drill through the full sea ice thickness. Snow depth (`/eureka_data/auger/snow_depth`) was measure to the nearest 0.01 m above each auger location using an avalance probe. Ice thickness(`/eureka_data/auger/ice_thickness`) was measured between the snow-ice interface and ice draft to the nearest cm with a probe and hook. Freeboard (`/eureka_data/auger/ice_freeboard`) was measured between the snow-ice interface and water level to the nearest cm using an avalanche probe. Coordinate information provided within this sub-group was collected with a handheld Garmin GPS unit (~3.0 m accuracy).
+
+Note that NaN values for ice thickness indicate that the auger was not able to penetrate the full volume. If a value is desired at these points it should be assumed that ice thickness is greater than 2.3 m.
 
 ###ESC-30
 Measurements within the `esc30` group (`/eureka_data/esc30`) were collected at points where a 30 cm diameter snow corer was used to extract samples. Measurements were collected in pairs and as a result two values are available for most dataset items. Snow depth (`/eureka_data/esc30/snow_depth`) was measured using . Extracted samples were weighed in the field with a calibrated hanging scale to produce the */eureka_data/esc30/mass* dataset. Snow density (`/eureka_data/esc30/snow_rho`) is calculated as 
-`mass / (29.225 * snow_depth)` where `29.225` is the diameter of the ESC-30. Coordinate information provided within this sub-group was collected with a handheld Garmin GPS unit (~3 m accuracy). 
+`mass / (29.225 * snow_depth)` where `29.225` is the diameter of the ESC-30. Coordinate information provided within this sub-group was collected with a handheld Garmin GPS unit (~3.0 m accuracy). 
 
 Note that disagreement between co-located sample pairs is not an indicator of operator error!
 
