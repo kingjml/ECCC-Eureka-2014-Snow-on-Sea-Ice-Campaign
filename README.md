@@ -27,7 +27,7 @@ Measurements within the `auger` group (`/eureka_data/auger`) were collected at p
 Note that NaN values for ice thickness indicate that the auger was not able to penetrate the full volume. If a value is desired at these points it should be assumed that ice thickness is greater than 2.3 m.
 
 ###ESC-30
-Measurements within the `esc30` group (`/eureka_data/esc30`) were collected at points where a 30 cm diameter snow corer was used to extract samples. Measurements were collected in pairs and as a result two values are available for most dataset items. Snow depth (`/eureka_data/esc30/snow_depth`) was measured using . Extracted samples were weighed in the field with a calibrated hanging scale to produce the */eureka_data/esc30/mass* dataset. Snow density (`/eureka_data/esc30/snow_rho`) is calculated as 
+Measurements within the `esc30` group (`/eureka_data/esc30`) were collected at points where a snow corer (30 cm cross-sectional area) was used to extract samples. Measurements were collected in pairs and as a result two values are available for most dataset items. Snow depth (`/eureka_data/esc30/snow_depth`) was measured using . Extracted samples were weighed in the field with a calibrated hanging scale to produce the */eureka_data/esc30/mass* dataset. Snow density (`/eureka_data/esc30/snow_rho`) is calculated as 
 `mass / (29.225 * snow_depth)` where `29.225` is the diameter of the ESC-30. Coordinate information provided within this sub-group was collected with a handheld Garmin GPS unit (~3.0 m accuracy). 
 
 Note that disagreement between co-located sample pairs is not an indicator of operator error!
