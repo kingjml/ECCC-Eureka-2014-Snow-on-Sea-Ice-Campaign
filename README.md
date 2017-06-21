@@ -1,4 +1,4 @@
-#ECCC 2014 Snow on Sea Ice Campaign
+##ECCC 2014 Snow on Sea Ice Campaign
 
 ## Synopsis
 During March and April of 2014, [ECCC](http://ec.gc.ca/) completed a coordinated field-based campaign to evaluate radar-derived estimates of snow depth on sea from [NASA’s Operation IceBridge](https://www.nasa.gov/mission_pages/icebridge/index.html). The dataset housed in this repository contains measurements of snow depth, snow density, sea ice thickness, and sea ice freeboard collected near Eureka, Nunavut, Canada on first year sea ice between 24 March 2014 and 02 April 2014. Measurements are coincident with a NASA Operation IceBridge mission flown on 25 March 2014 ([see mission report for details](https://espo.nasa.gov/oib/flight_reports/P-3_Orion_03_25_14)). Data contained in the repository was used in [King, et. al., 2015](http://onlinelibrary.wiley.com/doi/10.1002/2015GL066389/full) to evaluate the [IceBridge Sea Ice Freeboard, Snow Depth, and Thickness Quick Look](https://nsidc.org/data/docs/daac/icebridge/evaluation_products/sea-ice-freeboard-snowdepth-thickness-quicklook-index.html) product.
@@ -33,14 +33,17 @@ Measurements within the `esc30` group (`/eureka_data/esc30`) were collected at p
 Note that disagreement between co-located sample pairs is not an indicator of operator error!
 
 ###Magnaprobe
-All measurements contained within the `magnaprobe` group (`/eureka_data/magnaprobe`) were collected with [GPS-enabled Snow Hydro Magnaprobe](http://www.snowhydro.com/products/column2.html) units. Point measruements of snow depth are provided in the dataset `/eureka_data/magnaprobe/snow_depth`. Measurements have been rounded to the nearest mm and are provided in m units.
+All measurements contained within the `magnaprobe` group (`/eureka_data/magnaprobe`) were collected with [GPS-enabled Snow Hydro Magnaprobe](http://www.snowhydro.com/products/column2.html) units. Point measurements of snow depth are provided in the dataset `/eureka_data/magnaprobe/snow_depth`. Measurements have been rounded to the nearest mm and are provided in m units.
 
-## Refrence
+## References
 King, J., S. Howell, C. Derksen, N. Rutter, P. Toose, J. F. Beckers, C. Haas, N. Kurtz, and J. Richter-Menge (2015), Evaluation of Operation IceBridge quick-look snow depth estimates on sea ice, Geophys. Res. Lett., 42, 9302–9310, doi:10.1002/2015GL066389.
+
+Kwok, R., N. Kurtz, L. Brucker, A. Ivanoff, T. Newman, S. Farrell, J. King, S. Howell, M. Webster, J. Paden, C. Leuschen, J. Macgregor, J. Richter-Menge, J. Harbeck, J and M. Tschudi (2017) Inter-comparison of snow depth retrievals over Arctic sea ice from radar data acquired by Operation IceBridge, The Cryosphere Discussions, doi:10.5194/tc-2017-103.
+
 
 ## Contact
 Josh King, Research Scientist, joshua.king[at]canada.ca
 
 ## License
 This dataset is licensed under the [Open Government License of Canada](http://open.canada.ca/en/open-government-licence-canada)
-and is subject to the [Copyright Act of Canada](http://laws-lois.justice.gc.ca/eng/acts/C-42/index.html). Additional infomration can be found at the [Government of Canada's Open Government portal](http://open.canada.ca)
+and is subject to the [Copyright Act of Canada](http://laws-lois.justice.gc.ca/eng/acts/C-42/index.html). Additional information can be found at the [Government of Canada's Open Government portal](http://open.canada.ca)
